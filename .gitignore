@@ -1,0 +1,24 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+node_modules/
+platforms/
+plugins/
+**/*.swp
+.io-config.json
+.idea/**
+fastlane/test_servers/
+fastlane/cucumber.json
+fastlane/report.xml
+**/screenshot*
+**/test-results.xml
+.vscode/**
+jsconfig.json
+tests/coverage/**
+yarn.lock
+.DS_Store
+log.html
+output.xml
+report.html
+selenium-screenshot-*
+res/
